@@ -6,7 +6,6 @@ let a1 = document.createElement("a");
 let a2 = document.createElement("a");
 let a3 = document.createElement("a");
 let a4 = document.createElement("a");
-
 myBody.style.cssText = `margin: 0; font-family: system-ui; background-color: #ddd;`;
 // Header
 containerHeader.style.cssText = `height: 70px; background-color: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0px 25px; margin-bottom: 10px; `;
@@ -26,7 +25,6 @@ a4.innerHTML = "Contact";
 containerHeader.appendChild(hh1);
 containerHeader.appendChild(containerLinksHeader);
 // End Header 2
-
 // MainPage
 let mainPage = document.createElement("div");
 myBody.appendChild(containerHeader);
@@ -47,9 +45,7 @@ for (i = 1; i <= 15; i++) {
     mainPage.appendChild(containerContent);
     myBody.appendChild(mainPage);
 }
-
 // End MainPage 2
-
 // Footer
 let devFooter = document.createElement("div");
 let footerH1 = document.createElement("h1");
@@ -57,8 +53,5 @@ devFooter.style.cssText = `height: 70px; background-color: #23A96E; display: fle
 footerH1.style.cssText = `color: #fff; font-size: 25px; font-weight: 500; `;
 footerH1.innerText = "Copyright 2022";
 devFooter.appendChild(footerH1);
-
 // End Footer
-
-// myBody.appendChild(mainPage);
 myBody.appendChild(devFooter);
