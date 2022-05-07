@@ -8,7 +8,7 @@ let a3 = document.createElement("a");
 let a4 = document.createElement("a");
 myBody.style.cssText = `margin: 0; font-family: system-ui; background-color: #ddd;`;
 // Header
-containerHeader.style.cssText = `height: 70px; background-color: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0px 25px; margin-bottom: 10px; `;
+containerHeader.style.cssText = `height: 70px; background-color: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0px 38px; margin-bottom: 10px; `;
 hh1.innerText = "Mohamed Roshdy";
 hh1.style.cssText = `color: #26A47F; font-size: 20px; `;
 containerLinksHeader.style.cssText = `display: flex; gap: 10px;`;
